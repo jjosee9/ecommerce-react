@@ -7,8 +7,8 @@ const Product = (props) => {
     return (
         <>
             {props.products.map((product) => (
-                <div >
                 <div key={product.name} >
+                <div  >
                     <img src={product.image} className="images" />
                     <p> {product.name}</p>
                     <p>Price: ${product.Price}</p>

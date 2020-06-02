@@ -16,16 +16,16 @@ state = {
       products: products.products,
     };
   render() {
-    console.log(this.state)
+
     return (
       <>
         <BrowserRouter>
 
           <NavBar />    
           <Switch>  
-            <Route path="/home"><Home /></Route> 
+            <Route path="/" exact><Home /></Route> 
             <Route path="/products"  ><Products products={this.state.products}/></Route> {/*does the same as line after*/}
-            <Route path="/contact"><Contact /></Route>
+            <Route path="/contact" ><Contact /></Route>
           </Switch>
           <Footer />
         </BrowserRouter>
