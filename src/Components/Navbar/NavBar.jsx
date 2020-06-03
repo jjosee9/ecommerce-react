@@ -6,10 +6,10 @@ const navBar = () => {
     return (
         <div>
         <nav id="navbar">
-        <h1 class="logo">J's Jackets</h1>
+        <h1 className="logo">JP's Jackets</h1>
           <ul>
             <li>
-              <Link to="/">Home</Link>  
+               <Link to="/">Home</Link>    {/*As you click around on the different <Link>s, the router renders the matching <Route>.} */}
             </li>
             <li>
               <Link to="/products">Products</Link>

@@ -43,7 +43,7 @@ class Slide extends Component {
                    {photos.map((photo) =>{
                        return(
                            <div>
-                               <img className="img-slides" src={photo.photo} />
+                               <img className="img-slides" src={photo.photo} />  
                            </div>
                        )
                    })}
