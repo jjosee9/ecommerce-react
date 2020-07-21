@@ -10,7 +10,7 @@ const Products = (props) => {
 
             <div className="price-filter">
 
-                <select id="price" className="form-control" onChange={props.filter}>
+                <select id="price" onChange={props.filter}>
                     <option value="Price">Price</option>
                     <option value="LowestToHighest">Lowest to Highest</option>
                     <option value="HighestToLowest">Highest to Lowest</option>

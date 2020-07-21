@@ -5,7 +5,7 @@ import React from 'react'
 const Product = (props) => {
 
     return (
-          <>                                      {/*.map is an array method*/}
+        <>                                      {/*.map is an array method, */}
             {props.products.map((product) => (    //product is from product file.jsx returning data
                 <div key={product.id} className="cards">
                     <div >
